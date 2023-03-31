@@ -1,0 +1,28 @@
+{
+  "name": "blac",
+  "displayName": "Blac",
+  "description": "minimal dark monochromes for the midnights",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xdhrv/monos.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "publisher": "0xdhrv",
+  "license": "MIT",
+  "icon": "assets/monos.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monos - Blac",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monos-blac-color-theme.json"
+      }
+    ]
+  }
+}
